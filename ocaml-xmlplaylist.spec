@@ -37,6 +37,7 @@ make install
 /usr/lib64/ocaml/xmlplaylist/xmlplaylist.cmi
 /usr/lib64/ocaml/xmlplaylist/xmlplaylist.cmxa
 /usr/lib64/ocaml/xmlplaylist/xmlplaylist.mli
+/usr/lib64/ocaml/xmlplaylist/xmlplaylist.cmx
 
 %description
 OCAML bindings for xmlplaylist
