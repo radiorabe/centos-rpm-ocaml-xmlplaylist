@@ -1,7 +1,9 @@
+%define debug_package %{nil}
+
 Name:     ocaml-xmlplaylist
 
 Version:  0.1.4
-Release:  1
+Release:  2
 Summary:  OCaml bindings for xmlplaylist
 License:  GPLv2+
 URL:      https://github.com/savonet/ocaml-xmlplaylist
@@ -44,5 +46,8 @@ OCAML bindings for xmlplaylist
 
 
 %changelog
+* Sun Nov 11 2018 Lucas Bickel <hairmare@rabe.ch> - 0.1.4-2
+- Fix Fedora build by disabling debug package
+
 * Sun Jul  3 2016 Lucas Bickel <hairmare@rabe.ch>
 - initial version, mostly stolen from https://www.openmamba.org/showfile.html?file=/pub/openmamba/devel/specs/ocaml-xmlplaylist.spec
